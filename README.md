@@ -1,4 +1,4 @@
-# WEB102 Project 1 - *Flashcards*
+# WEB102 Project 2 - *Flashcards*
 
 ## Overview
 
