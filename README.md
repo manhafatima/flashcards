@@ -4,8 +4,6 @@
 
 This is a React-based Flashcards application designed to help users study and memorize information using a simple question-and-answer system. The app displays one flashcard at a time, allowing users to flip cards to reveal answers and navigate through the deck in a randomized or sequential order.
 
-The goal of this project is to practice React fundamentals such as state management, event handling, conditional rendering, and component-based UI design.
-
 ---
 
 ## 🎯 Features
