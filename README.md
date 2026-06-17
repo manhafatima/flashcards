@@ -1,16 +1,34 @@
-# React + Vite
+# WEB102 Project 1 - *Flashcards*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a React-based Flashcards application designed to help users study and memorize information using a simple question-and-answer system. The app displays one flashcard at a time, allowing users to flip cards to reveal answers and navigate through the deck in a randomized or sequential order.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The goal of this project is to practice React fundamentals such as state management, event handling, conditional rendering, and component-based UI design.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Features
 
-## Expanding the ESLint configuration
+### ✅ Required Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [x] The app displays the title of the card set, a short description, and the total number of cards
+  - [x] Title of card set is displayed
+  - [x] A short description of the card set is displayed
+  - [x] A list of card pairs is created
+  - [x] The total number of cards in the set is displayed
+
+- [x] A single card at a time is displayed
+  - [x] A single card is displayed at a time
+  - [x] Only one half of the information pair is displayed at a time
+
+- [x] Clicking on the card flips the card over, showing the corresponding component of the information pair
+  - [x] Clicking on a card flips it over, showing the back with corresponding information
+  - [x] Clicking on a flipped card again flips it back, showing the front
+
+- [x] Clicking the next button displays a random new card
+
+
+## 📸 GIF Walkthrough
+
+[App Walkthrough](https://canva.link/rbwa6a4yu91dp5z)
